@@ -1,3 +1,6 @@
+## 0.1.1
+* Fix import react
+
 ## 0.1.0 - First Release
 * Console.log snippet
 * Console.log with message
