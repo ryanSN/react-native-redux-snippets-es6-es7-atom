@@ -9,7 +9,7 @@ A Snippet library for React Native, React, Redux in es6/es7 format for Atom edit
 | Command       | Description                            |
 | ------------- | ---------------------------------------|
 | `log`         | `console.log()`                        |
-| `logm`        | Content Cell                           |
+| `logm`        | `console.log('message', object);`      |
 | `ed`          | Export Default                         |
 | `ins`         | initial state                          |
 | `edl`         | eslint disable line                    |
