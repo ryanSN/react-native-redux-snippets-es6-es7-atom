@@ -93,7 +93,7 @@
           $1
       });
 
-      export default styles
+      export default styles;
     '''
   'Stateless component':
     'prefix': 'sc'
@@ -102,7 +102,7 @@
         $2
       );
 
-      export default $1
+      export default $1;
     '''
   'Redux Reducer':
     'prefix': 'rrd'
