@@ -1,3 +1,6 @@
+## 0.1.2
+* Adjust semi colons
+
 ## 0.1.1
 * Fix import react
 
