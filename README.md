@@ -5,6 +5,11 @@ A Snippet library for React Native, React, Redux in es6/es7 format for Atom edit
 ## Install
 `apm install react-native-redux-snippets-es6-es7-atom`
 
+![demo](https://user-images.githubusercontent.com/15616532/27241307-40f0ba32-52a6-11e7-91a4-569daf91ab83.gif)
+
+![demo-component-file](https://user-images.githubusercontent.com/15616532/27241320-4edd3ca6-52a6-11e7-8f38-7b9c2760e14b.gif)
+
+
 ## Snippets
 | Command       | Description                            |
 | ------------- | ---------------------------------------|
