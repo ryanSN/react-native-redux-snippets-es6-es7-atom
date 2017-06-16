@@ -1,0 +1,24 @@
+{
+  "name": "react-native-redux-snippets-es6-es7-atom",
+  "version": "0.0.1",
+  "description": "Snippets for React Native, React, Redux for Atom",
+  "keywords": [
+    "react-native",
+    "react",
+    "redux",
+    "snippets",
+    "atom"
+  ],
+  "author": "Ryan Chatterton (ryanSN)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanSN/react-native-redux-snippets-es6-es7-atom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanSN/react-native-redux-snippets-es6-es7-atom/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

@@ -1,0 +1,136 @@
+'.source.js, .source.jsx':
+
+  'Console Log':
+    'prefix': 'log'
+    'body': '''console.log('$1');$2'''
+  'Console Log message':
+    'prefix': 'logm'
+    'body': '''console.log('$1 :', $2);$3'''
+  'Export default':
+    'prefix': 'ed'
+    'body':'''export default $1;'''
+  'Initial State':
+    'prefix': 'ins'
+    'body': '''
+      const INITIAL_STATE = {
+        $1
+      };
+    '''
+  'Eslint Disable Line':
+    'prefix': 'edl'
+    'body': '''// eslint-disable-line '''
+  'Import React':
+    'prefix': 'imr'
+    'body':'''import React from 'react';'''
+  'Import react component':
+    'prefix': 'imrc'
+    'body': '''
+      'import React, { Component } from 'react';'
+    '''
+  'Import react-native element':
+    'prefix': 'rnim'
+    'body': '''import {$1} from 'react-native';'''
+  'Import react-native styled-component':
+    'prefix': 'rnims'
+    'body':'''import styled from 'styled-component';'''
+  'React Native scene':
+    'prefix': 'rnsc'
+    'body':'''
+      <Scene
+       key="$1"
+       title="$2"
+       component={$3}
+      />
+    '''
+  'React Native component file':
+    'prefix': 'rnc'
+    'body': '''
+      import React, { Component } from 'react';
+      import {
+        View,
+        Text,
+        StyleSheet
+      } from 'react-native';
+
+      export default class ${1:MyComponent} extends Component {
+        render() {
+          return (
+            ${2:<View style={styles.container\\}>
+              ${3:<Text>${4:${1:MyComponent} component}</Text>}
+            </View>}
+          );$5
+        }
+      }
+
+      const styles = StyleSheet.create({
+          $6
+      });
+    '''
+  'React Native stateless component file':
+    'prefix': 'rsc'
+    'body': '''
+     import React from 'react';
+     import {
+        View,
+        Text,
+        StyleSheet,
+      } from 'react-native';
+
+      const ${1:MyComponent} = ($2) => (
+        ${3:<View style={styles.container\\}>
+          ${4:<Text>${5:${1:MyComponent}}</Text>}
+        </View>}
+      );$6
+
+      export default ${1:MyComponent};
+      const styles = StyleSheet.create({
+      });
+    '''
+  'EStyleSheet Style':
+    'prefix': 'ess'
+    'body': '''
+      import EStyleSheet from 'react-native-extended-stylesheet';
+
+      const styles = EStyleSheet.create({
+          $1
+      });
+
+      export default styles
+    '''
+  'Stateless component':
+    'prefix': 'sc'
+    'body': '''
+      const $1 = () => (
+        $2
+      );
+
+      export default $1
+    '''
+  'Redux Reducer':
+    'prefix': 'rrd'
+    'body': '''
+      export default (state = $1, action) => {
+        switch (action.type) {
+          case $2:
+            $3
+          default:
+            return state;
+        }
+      };
+    '''
+    'React-router route':
+      'prefix': 'rrr'
+      'body': '''
+        <Route path="$1" component={$2} />
+      '''
+    'Class React component':
+      'prefix': 'rcc'
+      'body': '''
+        class $1 extends Component {
+          render() {
+            return (
+              $2
+            );
+          }
+        }
+      '''
