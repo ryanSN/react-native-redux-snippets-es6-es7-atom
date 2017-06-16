@@ -24,9 +24,7 @@
     'body':'''import React from 'react';'''
   'Import react component':
     'prefix': 'imrc'
-    'body': '''
-      'import React, { Component } from 'react';'
-    '''
+    'body': '''import React, { Component } from 'react';'''
   'Import react-native element':
     'prefix': 'rnim'
     'body': '''import {$1} from 'react-native';'''
