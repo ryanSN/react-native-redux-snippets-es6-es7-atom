@@ -84,6 +84,35 @@
       const styles = StyleSheet.create({
       });
     '''
+  'ListView':
+    'prefix': 'rnListView'
+    'body': '''
+      <ListView
+        style={${1}}
+        dataSource={${2:this.state.dataSource}}
+        renderRow={${3:(rowData) => ${4:<Text>{rowData\}</Text>}}}
+      />
+      ${5}$0
+    '''
+  'View':
+    'prefix': 'rnView'
+    'body': '<View style={styles.${1}}>${2}</View>$0'
+  'Text':
+    'prefix': 'rnText'
+    'body': '''
+      <Text style={styles.${1}}>
+        ${2}
+      </Text>$0
+    '''
+  'ScrollView':
+    'prefix': 'rnScrollView'
+    'body': '''
+      <ScrollView
+        contentContainerStyle={${1:styles.contentContainer}}
+        style={${2:styles.scrollView}}>
+        ${3}
+      </ScrollView>$0
+    '''
   'EStyleSheet Style':
     'prefix': 'ess'
     'body': '''
@@ -131,4 +160,28 @@
             );
           }
         }
+      '''
+    'React.PropTypes':
+      'prefix': 'rpt'
+      'body': '''React.PropTypes.${1}$0'''
+    'propTypes':
+      'prefix': 'pt'
+      'body': '''
+        static propTypes = {
+          ${2:prop}: React.PropTypes.${3:Type}
+        }$0
+        '''
+    'defaultProps':
+      'prefix': 'dpt'
+      'body': '''
+        static defaultProps = {
+          ${2:prop}: ${3:\'value\'}
+        }$0
+      '''
+    'componentDidUpdate(object prevProps, object prevState)':
+      'prefix': 'cdud'
+      'body': '''
+        componentDidUpdate(prevProps, prevState) {
+          ${1}
+        }$0
       '''

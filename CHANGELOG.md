@@ -1,3 +1,13 @@
+## 0.1.3
+* React.PropTypes
+* propTypes
+* defaultProps
+* componentDidUpdate
+* ListView
+* View
+* Text
+* ScrollView
+
 ## 0.1.2
 * Adjust semi colons
 
