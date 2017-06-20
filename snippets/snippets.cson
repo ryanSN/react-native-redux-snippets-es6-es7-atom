@@ -1,5 +1,5 @@
 '.source.js, .source.jsx':
-
+  # Base Items
   'Console Log':
     'prefix': 'log'
     'body': '''console.log('$1');$2'''
@@ -31,6 +31,8 @@
   'Import react-native styled-component':
     'prefix': 'rnims'
     'body':'''import styled from 'styled-component';'''
+
+  # React-Native Specific
   'React Native scene':
     'prefix': 'rnsc'
     'body':'''
@@ -124,6 +126,7 @@
 
       export default styles;
     '''
+  # React Specific
   'Stateless component':
     'prefix': 'sc'
     'body': '''
@@ -184,4 +187,25 @@
         componentDidUpdate(prevProps, prevState) {
           ${1}
         }$0
+      '''
+    'React bind method to this':
+      'prefix': 'rbm'
+      'body': '''
+        this.${1} = this.${1}.bind(this);
+      '''
+    'React Component':
+      'prefix': 'rc'
+      'body': '''
+        import React, { Component, PropTypes } from 'react';
+
+        export default class ${1:MyComponent} extends Component {
+          render() {
+            return (${2:<div>MyComponent</div>});
+          }
+        }
+
+        ${1}.propTypes = {
+          ${3}
+        };
+
       '''

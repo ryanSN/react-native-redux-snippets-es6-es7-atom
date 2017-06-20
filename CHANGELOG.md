@@ -1,3 +1,7 @@
+## 0.5.0
+* React Component with propTypes
+* React `this.myfunction.bind(this);`
+
 ## 0.4.0
 * React.PropTypes
 * propTypes

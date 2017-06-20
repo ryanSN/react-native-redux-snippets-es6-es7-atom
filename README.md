@@ -30,8 +30,10 @@ A Snippet library for React Native, React, Redux in es6/es7 format for Atom edit
 | `rrd`         | Redux Reducer                          |
 | `rrr`         | React-router route                     |
 | `rpt`         | React.PropTypes                        |
-| `pt`          | proptypes                              |
-| `rpt`         | defaultProps for proptypes             |
+| `rbm`         | React bind(this) method                |
+| `rc`          | React Component                        |
+| `pt`          | propTypes                              |
+| `rpt`         | defaultProps for propTypes             |
 | `rnListView`  | React Native ListView                  |
 | `rnView`      | React Native View                      |
 | `rnText`      | React Native Text                      |
