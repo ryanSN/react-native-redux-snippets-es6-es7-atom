@@ -47,4 +47,4 @@ A Snippet library for React Native, React, Redux in es6/es7 format for Atom edit
 
 ## License
 
-This work is licensed under [The MIT License](LICENSE).
+This work is licensed under [The MIT License](LICENSE.md).
