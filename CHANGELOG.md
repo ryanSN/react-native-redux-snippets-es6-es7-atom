@@ -1,3 +1,7 @@
+## 0.6.0
+* Update Readm
+* React Native Image component
+
 ## 0.5.0
 * React Component with propTypes
 * React `this.myfunction.bind(this);`

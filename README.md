@@ -1,5 +1,9 @@
 # react-native-redux-snippets-es6-es7-atom
 
+[![apm](https://img.shields.io/apm/l/react-native-redux-snippets-es6-es7-atom.svg?style=flat)](https://atom.io/packages/react-native-redux-snippets-es6-es7-atom)
+[![apm](https://img.shields.io/apm/v/react-native-redux-snippets-es6-es7-atom.svg?style=flat)](https://atom.io/packages/react-native-redux-snippets-es6-es7-atom)
+[![apm](https://img.shields.io/apm/dm/react-native-redux-snippets-es6-es7-atom.svg?style=flat)](https://atom.io/packages/react-native-redux-snippets-es6-es7-atom)
+
 A Snippet library for React Native, React, Redux in es6/es7 format for Atom editor.
 
 ## Install
@@ -38,3 +42,9 @@ A Snippet library for React Native, React, Redux in es6/es7 format for Atom edit
 | `rnView`      | React Native View                      |
 | `rnText`      | React Native Text                      |
 | `rnScrollView`| React Native ScrollView                |
+
+
+
+## License
+
+This work is licensed under [The MIT License](LICENSE).
